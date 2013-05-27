@@ -1,0 +1,27 @@
+{
+  "name": "fabrique-render",
+  "version": "0.0.1",
+  "description": "render txt-files from templates",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drdrej/fabrique-render.git"
+  },
+  "keywords": [
+    "tmpl",
+    "template",
+    "text",
+    "render",
+    "fabriquejs"
+  ],
+  "author": "drdrej",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "17947233b9b370faa54ada56204e9672ee2d4d65"
+}
