@@ -23,5 +23,10 @@
   "author": "drdrej",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "17947233b9b370faa54ada56204e9672ee2d4d65"
+  "gitHead": "17947233b9b370faa54ada56204e9672ee2d4d65",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "fabrique-log": "0.0.2",
+    "handlebars": "~1.0.12"
+  }
 }
