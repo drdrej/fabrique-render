@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc88aba9-8d45-474c-82f0-4eecc8d33462" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hello-world.txt.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/render-cli-arguments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/project/resolve-path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hello-world.json" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-render\impl\load-model.js" afterPath="$PROJECT_DIR$/impl/project/load-model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/render-cli-arguments.js" afterPath="$PROJECT_DIR$/impl/render-cli-arguments.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/render-cli.js" afterPath="$PROJECT_DIR$/impl/render-cli.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -20,11 +20,12 @@
     <file path="/fabrique-render" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370805068338" ignored="false" />
     <file path="/render.cli.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370874031113" ignored="false" />
     <file path="/load-model.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370807611939" ignored="false" />
-    <file path="/render-cli.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370873961707" ignored="false" />
+    <file path="/render-cli.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370876765048" ignored="false" />
     <file path="/resolve-path.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370872143103" ignored="false" />
     <file path="/hello-world.txt.tmpl" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370872680397" ignored="false" />
-    <file path="/render-cli-options.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370873905426" ignored="false" />
-    <file path="/render-cli-arguments.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370873820626" ignored="false" />
+    <file path="/render-cli-options.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370875058423" ignored="false" />
+    <file path="/render-cli-arguments.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370875559057" ignored="false" />
+    <file path="/hello-world.json.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370875130711" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <file leaf-file-name="render-cli.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/impl/render-cli.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="51" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.7955912">
+            <state line="41" column="25" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.7955912">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -55,13 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="render-cli-arguments.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/render-cli-arguments.js">
+      <file leaf-file-name="hello-world.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/hello-world.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="18" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="2" column="53" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.3076923">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,9 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/impl/render-cmd.js" />
-        <option value="$PROJECT_DIR$/impl/render.js" />
-        <option value="$PROJECT_DIR$/test/test-project-path.js" />
         <option value="$PROJECT_DIR$/impl/render.verify.js" />
         <option value="$PROJECT_DIR$/impl/render.exec.js" />
         <option value="$PROJECT_DIR$/impl/render-impl.js" />
@@ -120,7 +116,10 @@
         <option value="$PROJECT_DIR$/impl/project/resolve-path.js" />
         <option value="$PROJECT_DIR$/example/hello-world.txt.tmpl" />
         <option value="$PROJECT_DIR$/impl/render-cli-options.js" />
+        <option value="$PROJECT_DIR$/example/hello-world.json.js" />
         <option value="$PROJECT_DIR$/impl/render-cli-arguments.js" />
+        <option value="$PROJECT_DIR$/example/hello-world.json" />
+        <option value="$PROJECT_DIR$/impl/project/load-model.js" />
         <option value="$PROJECT_DIR$/impl/render-cli.js" />
       </list>
     </option>
@@ -297,6 +296,7 @@
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-render" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-render\impl\project" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-render\test\files" />
     </key>
   </component>
@@ -480,15 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/load-model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/render-impl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="1116" selection-end="1162" vertical-scroll-proportion="0.0">
@@ -507,25 +498,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/hello-world.txt.tmpl">
+    <entry file="file://$PROJECT_DIR$/impl/render-cli-arguments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.092391305">
+        <state line="21" column="54" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.6502732">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/render-cli-arguments.js">
+    <entry file="file://$PROJECT_DIR$/example/hello-world.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="18" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.0">
+        <state line="2" column="53" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/project/load-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="61" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.54626334">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/hello-world.txt.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.06049822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/impl/render-cli.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="51" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.7955912">
+        <state line="41" column="25" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.7955912">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

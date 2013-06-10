@@ -38,24 +38,27 @@ var LOGGER = require( "fabrique-log" ).logger;
 var _ = require( "underscore" );
 var prepareParams = require( './render-cli-arguments.js' );
 var render = require( "./render-impl.js" );
+var loadModel = require( './project/load-model.js' );
+var fs = require( 'fs' );
 
 
 var params = prepareParams();
+var data = loadModel( params.data );
 
-console.log( "params :::: " + params.templates );
-
-/*
-args._.forEach( function( template ) {
+params.templates.forEach( function( templateFile, index ) {
     try {
-        // param: template - must be a path to a template file.
+        var template = fs.readFileSync( templateFile, 'utf8' );
+        var rendered = render( template, data );
+        var output = params.output[ index ];
 
-        var rendered = render( template, args.m );
-        console.log( ">>>> rendered: " + rendered );
+        fs.writeFileSync( output, rendered, 'utf8')
+
+        LOGGER.success( 'write rendered file to: ' + output );
     } catch (err) {
+        LOGGER.exception( err );
         LOGGER.warn( 'Unable to render template: "' + template + '". skip it!' );
     }
 });
-*/
 
 
 

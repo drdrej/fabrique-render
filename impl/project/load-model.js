@@ -38,7 +38,6 @@ module.exports = function load( path ) {
 
         try {
             var rval = require( path );
-
             if( rval ) {
                 LOGGER.success( "module loaded. path = " + path  );
                 return rval;
