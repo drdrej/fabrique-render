@@ -1,9 +1,8 @@
 fabrique-render
 ===============
+**-- experimental**
 
-**experimental**
-
-## Description
+*Description*:
 Render txt-files in fabrique-js based on handlebars-templates and json-data.
 
 ## Philosophy
@@ -39,6 +38,7 @@ Output in console:
 1. share and speak about it.
 2. fork, contribute code, tests, translations.
 3. donate.
+
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7GL3MAY2KYLG)
 
 Thank you for usage & support!
