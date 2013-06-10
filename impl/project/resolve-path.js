@@ -22,48 +22,30 @@
 
  */
 
-
-
-/**
- * Usage from command-line:
- *
- * > fabrique-render -model ./my-data.json -src "..." -dest "..." file1.tmpl, file2.tmpl, file3.tmpl
- *
- * render file1 ... file3 from directory passed in "-src" parameter to directory passed in
- * "-dest" parameter.
- *
- */
-
 var LOGGER = require( "fabrique-log" ).logger;
 var _ = require( "underscore" );
-var prepareParams = require( './render-cli-arguments.js' );
-var render = require( "./render-impl.js" );
+var path = require( "path" );
 
-
-var params = prepareParams();
-
-console.log( "params :::: " + params.templates );
-
-/*
-args._.forEach( function( template ) {
-    try {
-        // param: template - must be a path to a template file.
-
-        var rendered = render( template, args.m );
-        console.log( ">>>> rendered: " + rendered );
-    } catch (err) {
-        LOGGER.warn( 'Unable to render template: "' + template + '". skip it!' );
+/**
+ * function to resolve path.
+ *
+ * @param dir
+ * @param file
+ */
+module.exports = function resolve( dir, file ) {
+    var root = dir;
+    if( !_.isString(dir) ) {
+        LOGGER.warn( "can't resolve a path, because passed parameter:dir is not a string. dir = " + dir );
+        return false;
     }
-});
-*/
 
+    if( !_.isString(file) ) {
+        LOGGER.warn( "can't resolve a path, because passed parameter:file is not a string. file = " + file );
+        return false;
+    }
 
+    var full = dir + "/" + file;
+    var normalized = path.normalize( full);
 
-
-
-
-
-
-
-
-
+    return path.resolve( normalized );
+};
