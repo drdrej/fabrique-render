@@ -1,12 +1,24 @@
 fabrique-render
 ===============
 
+**experimental**
 render txt-files in fabrique-js.
 
+
+
 ## Philosophy
+1. simple.
+2. write only tests if something not work.
+3. everything is a function.
 
 
 ## Usage
+
+Install with npm:
+```
+>npm install fabrique-render -g
+```
+
 Use console to call renderer.
 ```
 cli>fabrique-render -m "./example/hello-world.json" -s "./example" -d "c:\temp" hello-world.txt.tmpl
@@ -24,4 +36,5 @@ Output in console:
 ```
 
 
-(c) 2013 Andreas Siebert, ask at touchableheroes.com
+(c) 2013 Andreas Siebert, touchableheroes.com
+ask at touchableheroes.com
