@@ -36,14 +36,11 @@
 
 var LOGGER = require( "fabrique-log" ).logger;
 var _ = require( "underscore" );
+
 var prepareParams = require( './render-cli-arguments.js' );
-
-
-
 var params = prepareParams();
 
 var exec = require( "./render-exec.js" );
-
 exec( params );
 
 

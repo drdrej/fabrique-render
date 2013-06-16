@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc88aba9-8d45-474c-82f0-4eecc8d33462" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/render-cli.js" afterPath="$PROJECT_DIR$/impl/render-cli.js" />
     </list>
     <ignored path="fabrique-render.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371409523461" ignored="false" />
+    <file path="/Dummy.txt" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371414238865" ignored="false" />
     <file path="/render.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1369847698419" ignored="false" />
     <file path="/test-project-path.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1369949416390" ignored="false" />
     <file path="/project.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370807260563" ignored="false" />
@@ -119,7 +120,7 @@
     <file path="$PROJECT_DIR$/../fabrique-js/impl/sdk/sdk.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371223168189" ignored="false" />
     <file path="/sdk.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371223155474" ignored="false" />
     <file path="/fabrique-cli-arguments.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371410250648" ignored="false" />
-    <file path="$PROJECT_DIR$/../fabrique-js/package.json" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371249968978" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-js/package.json" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371414273251" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-js/README.md" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371249725999" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-js/impl/command/load-command.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371403159889" ignored="false" />
     <file path="/load-command.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371393894513" ignored="false" />
@@ -144,6 +145,8 @@
     <file path="/exec-command.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371411986117" ignored="false" />
     <file path="/a.dummy" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371412338458" ignored="false" />
     <file path="/render-exec.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371413760375" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-js/impl/index.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371414453767" ignored="false" />
+    <file path="/index.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371414423618" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,75 +165,7 @@
     <favorites_list name="fabrique-render" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="fabrique-render" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/fabrique-render">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="render-cli.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/render-cli.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1377" selection-end="1423" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="render-exec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/render-exec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="46" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="50" selection-end="50" vertical-scroll-proportion="0.105919">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="render-cli-arguments.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/render-cli-arguments.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="17" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Console.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/impl/log/Console.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="render-impl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/render-impl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="3" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -248,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/test-render-impl.js" />
         <option value="$PROJECT_DIR$/bin/fabrique-render" />
         <option value="$PROJECT_DIR$/impl/project.js" />
         <option value="$PROJECT_DIR$/impl/load-model.js" />
@@ -261,9 +195,10 @@
         <option value="$PROJECT_DIR$/impl/project/load-model.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/impl/render-cli-arguments.js" />
-        <option value="$PROJECT_DIR$/impl/render-cli.js" />
         <option value="$PROJECT_DIR$/impl/render-exec.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/impl/render-cli.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -342,57 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,20 +292,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-render" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -482,12 +353,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="732" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4854151" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4854151" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -563,11 +434,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/files/model-project-path.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-render-impl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="1611" selection-end="1611" vertical-scroll-proportion="-3.94" />
@@ -605,20 +471,6 @@
         <state line="23" column="20" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/fabrique-render">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/render-impl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="3" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/impl/log/Console.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="0" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.0">
@@ -633,15 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/render-cli.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1377" selection-end="1423" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/hello-world.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -649,9 +492,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/render-exec.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+        <state line="35" column="27" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.6570605">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -660,7 +503,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="50" selection-end="50" vertical-scroll-proportion="0.105919">
+        <state line="16" column="36" selection-start="376" selection-end="376" vertical-scroll-proportion="0.847352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/render-exec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="46" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.26086956">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/render-cli.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1458" selection-end="1590" vertical-scroll-proportion="0.28732395">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/fabrique-render">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/render-impl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.23097827">
           <folding />
         </state>
       </provider>
