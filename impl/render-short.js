@@ -22,23 +22,21 @@
 
  */
 
+var LOGGER = require( "fabrique-log" ).logger;
+var render = require( "./render-impl.js" );
+var loadModel = require( './project/load-model.js' );
+var fs = require( 'fs' );
+
 
 /**
- * compatible with fabrique-command-interface - version 0.0.1
+ * convert short short version to normal form.
  *
- * @type {{exec: *}}
+ * @param cmdName string never null
+ * @param params array of strings
  */
-module.exports = {
-
-    /**
-     * function to convert short function to normal form.
-     *
-     * @return a normal form of command-parameters.
-     */
-    short : require( './impl/render-short.js' ),
-
-    /**
-     * this function executes the command.
-     */
-    exec: require( "./impl/render-exec.js" )
-}
+module.exports = function normalize( cmdName, params ) {
+      return {
+          name : cmdName,
+          params : params
+      }
+};
