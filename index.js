@@ -40,5 +40,7 @@ module.exports = {
     /**
      * this function executes the command.
      */
-    exec: require( "./impl/render-exec.js" )
+    exec: require( "./impl/render-exec.js" ),
+
+    render: require( "./impl/render-impl.js" )
 }
