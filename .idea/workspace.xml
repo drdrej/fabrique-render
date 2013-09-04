@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc88aba9-8d45-474c-82f0-4eecc8d33462" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme/console_how_to_use.PNG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-render.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +23,7 @@
     <file path="/render-cli-arguments.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371413533128" ignored="false" />
     <file path="/hello-world.json.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370875130711" ignored="false" />
     <file path="/package.json" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1370878553990" ignored="false" />
-    <file path="/README.md" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378303595670" ignored="false" />
+    <file path="/README.md" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378303855482" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-js/script/test/test-Tasks.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371070389828" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-js/script/static-routes.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371070389828" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-js/script/test/test-runner.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371070389828" ignored="false" />
@@ -180,7 +178,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="41" selection-start="588" selection-end="588" vertical-scroll-proportion="0.7431694">
+            <state line="26" column="19" selection-start="566" selection-end="566" vertical-scroll-proportion="0.7431694">
               <folding />
             </state>
           </provider>
@@ -585,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="41" selection-start="588" selection-end="588" vertical-scroll-proportion="0.7431694">
+        <state line="26" column="19" selection-start="566" selection-end="566" vertical-scroll-proportion="0.7431694">
           <folding />
         </state>
       </provider>
