@@ -23,6 +23,9 @@ Use console to call renderer.
 cli>fabrique-render -m "./example/hello-world.json" -s "./example" -d "c:\temp" hello-world.txt.tmpl
 ```
 
+If you call this command without parameters you will get list of parameters you need to use.
+[Console](./readme/console_hot_to_use.PNG)
+
 Output in console:
 ```
 -- load module
