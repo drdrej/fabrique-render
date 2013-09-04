@@ -24,7 +24,7 @@ cli>fabrique-render -m "./example/hello-world.json" -s "./example" -d "c:\temp" 
 ```
 
 If you call this command without parameters you will get list of parameters you need to use.
-[Console-Screenshot](https://raw.github.com/drdrej/fabrique-render/master/readme/console_how_to_use.PNG)
+![Console-Screenshot](https://raw.github.com/drdrej/fabrique-render/master/readme/console_how_to_use.PNG)
 
 Output in console:
 ```
