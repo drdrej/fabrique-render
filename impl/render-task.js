@@ -1,3 +1,6 @@
+
+
+
 /*
 
  Copyright (c) 2012-2013 Andreas Siebert, ask@touchableheroes.com
@@ -20,36 +23,24 @@
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  IN THE SOFTWARE.
 
-*/
+ */
 
 var LOGGER = require( "fabrique-log" ).logger;
+var render = require( "./render-impl.js" );
+var fs = require( 'fs' );
 
-/**
- * tries to load a *.json file. if a passed file couldn't
- * be loaded it returns an empty opbject.
- *
- * @param path
- *
- * @returns {object} never null
- */
-module.exports = function load( path ) {
-        LOGGER.log( "load module" );
-        LOGGER.value( "path", path );
 
-        try {
-            var rval = require( path );
-            if( rval ) {
-                LOGGER.success( "module loaded. path = " + path  );
-                return rval;
-            }
 
-            LOGGER.warn( "couldn't load module. path = " + pa  );
+module.exports = function exec( templatePath, data, outputPath ) {
+    try {
+        var template = fs.readFileSync( templatePath, 'utf8' );
+        var rendered = render( template, data );
 
-            return {};
-        } catch( e ) {
-            LOGGER.exception( e );
-            LOGGER.warn( "couldn't load module. path = " + path );
+        fs.writeFileSync( outputPath, rendered, 'utf8')
 
-            return {};
-        }
+        LOGGER.success( 'write rendered file to: ' + outputPath );
+    } catch (err) {
+        LOGGER.exception( err );
+        LOGGER.warn( 'Unable to render template: "' + templatePath + '". skip it!' );
+    }
 };

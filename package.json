@@ -1,6 +1,6 @@
 {
   "name": "fabrique-render",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "render txt-files from templates",
   "main": "index.js",
   "directories": {

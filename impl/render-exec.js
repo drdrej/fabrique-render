@@ -23,15 +23,22 @@
  */
 
 var LOGGER = require( "fabrique-log" ).logger;
-var render = require( "./render-impl.js" );
+
+// var render = require( "./render-impl.js" );
 var loadModel = require( './project/load-model.js' );
-var fs = require( 'fs' );
+
+// var fs = require( 'fs' );
+
+var task = require( "./render-task.js" );
 
 
 
 module.exports = function exec( params ) {
     var data = loadModel( params.data );
 
+    task(params.template, data, params.output);
+
+    /*
     try {
         var template = fs.readFileSync( params.template, 'utf8' );
         var rendered = render( template, data );
@@ -44,4 +51,5 @@ module.exports = function exec( params ) {
         LOGGER.exception( err );
         LOGGER.warn( 'Unable to render template: "' + template + '". skip it!' );
     }
+    */
 }

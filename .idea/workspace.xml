@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc88aba9-8d45-474c-82f0-4eecc8d33462" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/project/dumpJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/render-task.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/project/load-model.js" afterPath="$PROJECT_DIR$/impl/project/load-model.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/render-exec.js" afterPath="$PROJECT_DIR$/impl/render-exec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-render.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378332171557" ignored="false" />
+    <file path="/Dummy.txt" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378414258596" ignored="false" />
     <file path="/render.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1369847698419" ignored="false" />
     <file path="/test-project-path.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1369949416390" ignored="false" />
     <file path="/project.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1373124670946" ignored="false" />
@@ -145,9 +149,9 @@
     <file path="$PROJECT_DIR$/../fabrique-js/impl/command/exec-command.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371411991664" ignored="false" />
     <file path="/exec-command.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371411986117" ignored="false" />
     <file path="/a.dummy" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1373307087036" ignored="false" />
-    <file path="/render-exec.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371413760375" ignored="false" />
+    <file path="/render-exec.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378414866536" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-js/impl/index.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371484700195" ignored="false" />
-    <file path="/index.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378332344356" ignored="false" />
+    <file path="/index.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378414922738" ignored="false" />
     <file path="/render-short.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1371871646876" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-js/examples/project-draft/project.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1373124257957" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-js/examples/java-helloworld/tasks/project.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1373124289851" ignored="false" />
@@ -158,13 +162,15 @@
     <file path="$PROJECT_DIR$/../fabrique-model/impl/query/query-api.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1373307870458" ignored="false" />
     <file path="/query-api.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1373307377154" ignored="false" />
     <file path="/test-query-api.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1373309863183" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../android-db-drafts/sources/android-db-drafts-sdk/fabrique/build.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378332062362" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../android-db-drafts/sources/android-db-drafts-sdk/fabrique/build.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378333237837" ignored="false" />
     <file path="$PROJECT_DIR$/../../../android-db-drafts/sources/android-db-drafts-sdk/fabrique/README.md" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378331646936" ignored="false" />
     <file path="$PROJECT_DIR$/../../../android-db-drafts/sources/android-db-drafts-sdk/fabrique/LICENSE.md" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378331620527" ignored="false" />
     <file path="/LICENSE.md" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378331604394" ignored="false" />
     <file path="$PROJECT_DIR$/../../../android-db-drafts/sources/android-db-drafts-sdk/fabrique/LICENSE.txt" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378331756693" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../android-db-drafts/sources/android-db-drafts-sdk/fabrique/package.json" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378331892553" ignored="false" />
-    <file path="/build.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378332030613" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../android-db-drafts/sources/android-db-drafts-sdk/fabrique/package.json" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378333213392" ignored="false" />
+    <file path="/build.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378333235115" ignored="false" />
+    <file path="/dumpJSON.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378414413202" ignored="false" />
+    <file path="/render-task.js" changelist="cc88aba9-8d45-474c-82f0-4eecc8d33462" time="1378414721291" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +202,7 @@
       <file leaf-file-name="render-exec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/render-exec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="47" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0">
+            <state line="39" column="4" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -204,28 +210,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="render-short.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/render-short.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="26" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="render-impl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/render-impl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="3" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="37" selection-start="145" selection-end="145" vertical-scroll-proportion="0.13398059">
+            <state line="13" column="33" selection-start="318" selection-end="318" vertical-scroll-proportion="0.009708738">
               <folding />
             </state>
           </provider>
@@ -234,7 +222,25 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="46" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.0">
+            <state line="47" column="4" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="render-task.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/render-task.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="43" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="render-impl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/render-impl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="37" selection-start="1499" selection-end="1506" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -258,20 +264,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/impl/project.js" />
-        <option value="$PROJECT_DIR$/impl/load-model.js" />
         <option value="$PROJECT_DIR$/impl/render.cli.js" />
         <option value="$PROJECT_DIR$/impl/project/resolve-path.js" />
         <option value="$PROJECT_DIR$/example/hello-world.txt.tmpl" />
         <option value="$PROJECT_DIR$/impl/render-cli-options.js" />
         <option value="$PROJECT_DIR$/example/hello-world.json.js" />
         <option value="$PROJECT_DIR$/example/hello-world.json" />
-        <option value="$PROJECT_DIR$/impl/project/load-model.js" />
         <option value="$PROJECT_DIR$/impl/render-cli-arguments.js" />
-        <option value="$PROJECT_DIR$/impl/render-exec.js" />
         <option value="$PROJECT_DIR$/impl/render-cli.js" />
         <option value="$PROJECT_DIR$/impl/render-short.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/impl/project/load-model.js" />
+        <option value="$PROJECT_DIR$/impl/project/dumpJSON.js" />
+        <option value="$PROJECT_DIR$/impl/render-task.js" />
+        <option value="$PROJECT_DIR$/impl/render-exec.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
@@ -409,8 +415,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../android-db-drafts/sources/android-db-drafts-sdk/fabrique" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -461,12 +467,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="732" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4854151" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4854151" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -542,23 +548,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/hello-world.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/project/load-model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="61" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.54626334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/hello-world.txt.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.06049822" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="112" selection-end="1134" vertical-scroll-proportion="0.0" />
@@ -586,15 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/render-exec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="47" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/render-cli-arguments.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="17" selection-start="3027" selection-end="3033" vertical-scroll-proportion="0.75227684">
@@ -611,7 +591,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/render-short.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
+        <state line="30" column="26" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.24199288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/render-impl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="37" selection-start="1499" selection-end="1506" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/project/load-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="45" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.2513863">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/project/dumpJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="2" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.8790036">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/render-task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="43" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/render-exec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="4" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="4" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -625,23 +651,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="46" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/render-impl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="3" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="145" selection-end="145" vertical-scroll-proportion="0.13398059">
+        <state line="13" column="33" selection-start="318" selection-end="318" vertical-scroll-proportion="0.009708738">
           <folding />
         </state>
       </provider>

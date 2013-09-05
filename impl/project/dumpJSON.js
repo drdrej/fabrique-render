@@ -20,7 +20,9 @@
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  IN THE SOFTWARE.
 
-*/
+ */
+
+
 
 var LOGGER = require( "fabrique-log" ).logger;
 
@@ -32,24 +34,7 @@ var LOGGER = require( "fabrique-log" ).logger;
  *
  * @returns {object} never null
  */
-module.exports = function load( path ) {
-        LOGGER.log( "load module" );
-        LOGGER.value( "path", path );
+module.exports = function dumpJSON( json, output ) {
 
-        try {
-            var rval = require( path );
-            if( rval ) {
-                LOGGER.success( "module loaded. path = " + path  );
-                return rval;
-            }
 
-            LOGGER.warn( "couldn't load module. path = " + pa  );
-
-            return {};
-        } catch( e ) {
-            LOGGER.exception( e );
-            LOGGER.warn( "couldn't load module. path = " + path );
-
-            return {};
-        }
 };
